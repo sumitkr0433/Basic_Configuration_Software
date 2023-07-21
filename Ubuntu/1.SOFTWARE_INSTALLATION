@@ -2,8 +2,22 @@
 $ sudo apt-add-repository ppa:maarten-baert/simplescreenrecorder
 $ sudo apt-get update
 $ sudo apt-get install simplescreenrecorder
+!!!!!!error solution:-
+sudo su 
+cd /etc/gdm3
+nano custom.conf
+remove comment from the tag 
+#WaylandEnable=false
+to
+WaylandEnable=false
+and then save it 
+black screen recording solve
+----------------------------------------------------------------------------------------------------------------
 Website:--https://linuxhint.com/install_simple_screen_recorder_ubuntu/
+########################################################################################################################################################
 2.Unistalling Software
 open ubuntu software center
 go to installed software
-3.
+########################################################################################################################################################
+3.vlc installation
+sudo snap install vlc
