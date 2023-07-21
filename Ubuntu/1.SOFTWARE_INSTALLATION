@@ -1,4 +1,9 @@
 1.SIMPLE SCREEN RECORDER
-sudo snap install simplescreenrecorder-brlin
-Website:--https://snapcraft.io/simplescreenrecorder-brlin
-2.
+$ sudo apt-add-repository ppa:maarten-baert/simplescreenrecorder
+$ sudo apt-get update
+$ sudo apt-get install simplescreenrecorder
+Website:--https://linuxhint.com/install_simple_screen_recorder_ubuntu/
+2.Unistalling Software
+open ubuntu software center
+go to installed software
+3.
